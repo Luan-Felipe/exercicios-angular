@@ -4,6 +4,15 @@
   Start editing to see some magic happen : )
 </p>
 <h1>OLA MUNDO !</h1>
+<!-- Data Binding = associação de dados -->
+
+<!-- Interpolação de dados -->
 <my-button label={{buttonLabel}}></my-button>
-<my-button [label]="buttonSecond"></my-button>
 <my-button label="NOTICIA"></my-button>
+
+<!-- Property Binding -->
+<my-button [label]="buttonSecond"></my-button>
+<my-button [label]="'CARRINHO'"></my-button>
+
+<!-- Two way data binding -->
+<app-entry-data></app-entry-data>

@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./entry-data.component.css']
 })
 export class EntryDataComponent {
-  placeHolder : string = "email"
+  placeHolder: string = "email"
+  placePass: string = "senha"
+  color: string = "blue"
 }
